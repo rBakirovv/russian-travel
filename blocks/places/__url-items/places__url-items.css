@@ -1,0 +1,9 @@
+.places__url-items{
+  align-self: end;
+}
+
+@media screen and (max-width:430px) {
+  .places__url-items{
+    margin-top: 32px;
+  }
+}
