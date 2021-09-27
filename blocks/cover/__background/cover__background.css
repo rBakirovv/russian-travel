@@ -1,0 +1,52 @@
+.cover__background{
+  margin: 92px 48px 0;
+  background-image: url(../../../images/__background.png);
+  max-width: 1184px;
+  min-height: 740px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.cover__background::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.cover__background:hover::after{
+  opacity: 0.8;
+  background-color: #2A2C2F;
+}
+
+@media screen and (max-width:1024px) {
+  .cover__background{
+    margin: 92px 0 0;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .cover__background{
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width:525px) {
+  .cover__background{
+    margin-top: 66px;
+    min-height: 200px;
+  }
+}
