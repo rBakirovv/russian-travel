@@ -4,6 +4,6 @@
 
 @media screen and (max-width:430px) {
   .places__url-items{
-    margin-top: 32px;
+    margin: 32px 0 0 16px;
   }
 }
