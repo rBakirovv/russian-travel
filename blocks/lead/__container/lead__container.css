@@ -1,18 +1,15 @@
 .lead__container{
   margin: 56px 148px 0;
-  width: calc(100% - 148px*2);
 }
 
 @media screen and (max-width:1024px) {
   .lead__container{
     margin: 48px 48px 0;
-    width: auto;
   }
 }
 
 @media screen and (max-width:768px) {
   .lead__container{
     margin: 48px 0;
-    width: auto;
   }
 }

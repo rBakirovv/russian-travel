@@ -2,7 +2,7 @@
   align-self: end;
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:660px) {
   .places__url-items{
     margin: 32px 0 0 16px;
   }

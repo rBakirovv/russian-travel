@@ -1,9 +1,8 @@
 .intro__text{
   max-width: 690px;
-  margin-top: 40px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
+  margin: 40px 0 0;
+  font-family: 'Inter-Regular', Arial, sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 163%;
 }

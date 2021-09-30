@@ -10,14 +10,13 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:800px) {
   .places__container{
     margin: 90px 24px 0;
-    width: auto;
   }
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:660px) {
   .places__container{
     width: 100%;
     margin: 64px auto 0;
