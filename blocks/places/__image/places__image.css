@@ -4,13 +4,8 @@
 
 @media screen and (max-width:660px) {
   .places__image{
-    margin: 32px 0 0 16px;
-  }
-}
-
-@media screen and (max-width:492px) {
-  .places__image{
     margin: 32px 0 0;
     width: 100%;
   }
 }
+
